@@ -51,5 +51,10 @@ setup(
         'Topic :: Software Development :: Quality Assurance',
         'Topic :: Software Development :: Testing'
     ],
-    install_requires=['selenium>=2.47.0']
+    install_requires=[
+        'selenium>=2.47.0',
+        "lxml>=3.2.0",
+        "pytest>=2.7.3,<=2.9.0",
+        "namedlist",
+        "six>=1.9.0"]
 )
