@@ -16,9 +16,7 @@ from distutils.core import setup
 from setuptools import setup
 
 setup(
-    name='Appium-Python-Client',
-    version='0.22',
-    description='Python client for Appium 1.5',
+    description='Python client for Appium',
     keywords=[
         'appium',
         'appium 1.0',
@@ -27,14 +25,11 @@ setup(
         'python client',
         'mobile automation'
     ],
-    author='Isaac Murchie',
-    author_email='isaac@saucelabs.com',
-    url='http://appium.io/',
     packages=[
         'appium',
         'appium.common',
         'appium.webdriver',
-        'appium.webdriver.common'
+        'appium.webdriver.common',
         'allure'
     ],
     license='Apache 2.0',
