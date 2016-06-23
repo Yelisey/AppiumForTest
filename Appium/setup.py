@@ -35,6 +35,7 @@ setup(
         'appium.common',
         'appium.webdriver',
         'appium.webdriver.common'
+        'allure'
     ],
     license='Apache 2.0',
     classifiers=[
