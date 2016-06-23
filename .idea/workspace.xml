@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6e5d5aa-6b02-4ecd-b09f-05c3ca0a6ec2" name="Default" comment="" />
+    <list default="true" id="a6e5d5aa-6b02-4ecd-b09f-05c3ca0a6ec2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/apps/ApiDemos-debug.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/apps/TestApp.app.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/apps/UICatalog.app.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/apps/selendroid-test-app.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/CHANGELOG.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/MANIFEST.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/common/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/webdriver/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/webdriver/common/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/android/appium_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/ios/appium_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/android/chrome_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/webdriver/connectiontype.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/android/context_switching_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/android/desired_capabilities.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/ios/desired_capabilities.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/docgen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/webdriver/errorhandler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/common/exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/android/find_by_accessibility_id_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/ios/find_by_uiautomation_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/android/find_by_uiautomator_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/android/ime_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/webdriver/common/mobileby.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/webdriver/mobilecommand.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/webdriver/common/multi_action.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/android/multi_action_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/ios/multi_action_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/unit/multi_action_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/android/network_connection_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/readme_gen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/docs/roadmap.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/ios/safari_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/saucetestcase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/android/selendroid_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/webdriver/switch_to.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/webdriver/common/touch_action.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/functional/android/touch_action_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/unit/touch_action_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/webdriver/webdriver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/appium/webdriver/webelement.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="AppiumForTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +66,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="AppiumForTest" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Appium/appium/common/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +107,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -73,6 +142,50 @@
               <option name="myItemId" value="AppiumForTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Appium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppiumForTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppiumForTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Appium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppiumForTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppiumForTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Appium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -82,6 +195,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.project" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\e.oshlokov\Desktop\Appium\AppiumForTest\AppiumForTest\Appium" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -229,14 +347,22 @@
       <option name="number" value="Default" />
       <updated>1466688605420</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Appium directory&#10;">
+      <created>1466691091664</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1466691091664</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1218" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -258,8 +384,22 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Appium directory&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Appium directory&#10;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Appium/appium/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
