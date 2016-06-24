@@ -33,12 +33,14 @@ setup(
         'appium.webdriver',
         'appium.webdriver.common',
         'allure',
-        'allure.xmlReport'
+        #'allure.xmlReport'
     ],
     install_requires=[
         'selenium>=2.47.0',
         "lxml>=3.2.0",
         "pytest>=2.7.3,<=2.9.0",
         "namedlist",
-        "six>=1.9.0"]
+        "six>=1.9.0"],
+
+    pytest_plugins = ['allure.pytest_plugin']
 )
