@@ -16,6 +16,8 @@ from distutils.core import setup
 from setuptools import setup
 
 setup(
+    name='AppiumAutoTestFramework',
+    version='1.0',
     description='Python client for Appium',
     keywords=[
         'appium',
@@ -32,19 +34,6 @@ setup(
         'appium.webdriver.common',
         'allure',
         'allure.xmlReport'
-    ],
-    license='Apache 2.0',
-    classifiers=[
-        'Development Status :: Alpha',
-        'Programming Language :: Python3.5',
-        'Environment :: Console',
-        'Environment :: MacOS X',
-        'Environment :: Win32 (MS Windows)',
-        'Enviromant  :: Ubuntu (Linux)'
-        'Intended Audience :: AutoTesters',
-        'Intended Audience :: Other Testers',
-        'Topic :: Software Development :: Quality Assurance',
-        'Topic :: Software Development :: Testing'
     ],
     install_requires=[
         'selenium>=2.47.0',
