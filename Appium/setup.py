@@ -30,19 +30,19 @@ setup(
         'appium.common',
         'appium.webdriver',
         'appium.webdriver.common',
-        'allure'
+        'allure',
+        'allure.xmlReport'
     ],
     license='Apache 2.0',
     classifiers=[
-        'Development Status :: 3 - Beta',
-        'Programming Language :: Python',
+        'Development Status :: Alpha',
+        'Programming Language :: Python3.5',
         'Environment :: Console',
         'Environment :: MacOS X',
         'Environment :: Win32 (MS Windows)',
-        'Intended Audience :: Developers',
-        'Intended Audience :: Other Audience',
-        'License :: OSI Approved :: Apache Software License',
-        'Operating System :: OS Independent',
+        'Enviromant  :: Ubuntu (Linux)'
+        'Intended Audience :: AutoTesters',
+        'Intended Audience :: Other Testers',
         'Topic :: Software Development :: Quality Assurance',
         'Topic :: Software Development :: Testing'
     ],

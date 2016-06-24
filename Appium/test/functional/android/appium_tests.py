@@ -12,12 +12,12 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
 import unittest
 from zipfile import ZipFile
 import json
 import os
 import random
+import allure
 from time import sleep
 from dateutil.parser import parse
 
@@ -43,35 +43,51 @@ class AppiumTests(unittest.TestCase):
         if hasattr(self, 'zipfilename') and os.path.isfile(self.zipfilename):
             os.remove(self.zipfilename)
 
+    @allure.feature('Feature1')
+    @allure.story('Story1')
     def test_app_strings(self):
         strings = self.driver.app_strings()
         self.assertEqual(u'You can\'t wipe my data, you are a monkey!', strings[u'monkey_wipe_data'])
 
+    @allure.feature('Feature2')
+    @allure.story('Story2')
     def test_app_strings_with_language(self):
         strings = self.driver.app_strings('en')
         self.assertEqual(u'You can\'t wipe my data, you are a monkey!', strings[u'monkey_wipe_data'])
 
+    @allure.feature('Feature3')
+    @allure.story('Story3')
     def test_app_strings_with_language_and_file(self):
         strings = self.driver.app_strings('en', 'some_file')
         self.assertEqual(u'You can\'t wipe my data, you are a monkey!', strings[u'monkey_wipe_data'])
 
+    @allure.feature('Feature4')
+    @allure.story('Story4')
     def test_press_keycode(self):
         # not sure how to test this.
         self.driver.press_keycode(176)
 
+    @allure.feature('Feature5')
+    @allure.story('Story5')
     def test_long_press_keycode(self):
         # not sure how to test this.
         self.driver.long_press_keycode(176)
 
+    @allure.feature('Feature66')
+    @allure.story('Story6')
     def test_current_activity(self):
         activity = self.driver.current_activity
         self.assertEqual('.ApiDemos', activity)
 
+    @allure.feature('Feature7')
+    @allure.story('Story7')
     def test_pull_file(self):
         data = self.driver.pull_file('data/local/tmp/strings.json')
         strings = json.loads(data.decode('base64', 'strict'))
         self.assertEqual('You can\'t wipe my data, you are a monkey!', strings[u'monkey_wipe_data'])
 
+    @allure.feature('Feature8')
+    @allure.story('Story8')
     def test_push_file(self):
         path = 'data/local/tmp/test_push_file.txt'
         data = 'This is the contents of the file to push to the device.'
@@ -79,6 +95,8 @@ class AppiumTests(unittest.TestCase):
         data_ret = self.driver.pull_file('data/local/tmp/test_push_file.txt').decode('base64')
         self.assertEqual(data, data_ret)
 
+    @allure.feature('Feature9')
+    @allure.story('Story9')
     def test_pull_folder(self):
         string_data = 'random string data %d' % random.randint(0, 1000)
         path = '/data/local/tmp'
@@ -98,22 +116,30 @@ class AppiumTests(unittest.TestCase):
             myzip.read('1.txt')
             myzip.read('2.txt')
 
+    @allure.feature('Feature10')
+    @allure.story('Story10')
     def test_background_app(self):
         self.driver.background_app(1)
         sleep(5)
         el = self.driver.find_element_by_name('Animation')
         self.assertIsNotNone(el)
 
+    @allure.feature('Feature11')
+    @allure.story('Story11')
     def test_is_app_installed(self):
         self.assertFalse(self.driver.is_app_installed('sdfsdf'))
         self.assertTrue(self.driver.is_app_installed('com.example.android.apis'))
 
+    @allure.feature('Feature12')
+    @allure.story('Story12')
     def test_install_app(self):
         self.skipTest('This causes the server to crash. no idea why')
         self.assertFalse(self.driver.is_app_installed('io.selendroid.testapp'))
         self.driver.install_app('/Users/isaac/code/python-client/test/apps/selendroid-test-app.apk')
         self.assertTrue(self.driver.is_app_installed('io.selendroid.testapp'))
 
+    @allure.feature('Feature13')
+    @allure.story('Story13')
     def test_remove_app(self):
         self.assertTrue(self.driver.is_app_installed('com.example.android.apis'))
         self.driver.remove_app('com.example.android.apis')
@@ -230,6 +256,7 @@ class AppiumTests(unittest.TestCase):
         loc = el.location_in_view
         self.assertIsNotNone(loc['x'])
         self.assertIsNotNone(loc['y'])
+
 
     def test_device_time(self):
         date_time = self.driver.device_time
