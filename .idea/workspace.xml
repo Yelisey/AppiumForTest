@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6e5d5aa-6b02-4ecd-b09f-05c3ca0a6ec2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/ios/desired_capabilities.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/ios/find_by_uiautomation_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/ios/multi_action_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/ios/safari_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/unit/multi_action_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/unit/touch_action_tests.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/appium_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/chrome_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/context_switching_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/desired_capabilities.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/find_by_accessibility_id_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/find_by_uiautomator_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/ime_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/multi_action_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/network_connection_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/selendroid_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/touch_action_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/ios/appium_tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Appium/setup.py" afterPath="$PROJECT_DIR$/Appium/setup.py" />
     </list>
     <ignored path="AppiumForTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +35,28 @@
     <favorites_list name="AppiumForTest" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ime_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Appium/test/examples/android/ime_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appium_tests.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Appium/test/examples/ios/appium_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,6 +156,76 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppiumForTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppiumForTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Appium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppiumForTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppiumForTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Appium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppiumForTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppiumForTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Appium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -155,7 +251,11 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\e.oshlokov\Desktop\Appium\AppiumForTest\AppiumForTest\Appium\test\examples" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\e.oshlokov\Desktop\Appium\AppiumForTest\AppiumForTest\Appium\test\examples" />
       <recent name="C:\Users\e.oshlokov\Desktop\Appium\AppiumForTest\AppiumForTest\Appium" />
     </key>
   </component>
@@ -475,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1467184046002</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add tox.ini file&#10;Configurated tox file">
+      <created>1467184507545</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1467184507545</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -563,7 +670,7 @@
         <state relative-caret-position="663">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
           <folding>
-            <element signature="e#568#600#0" expanded="true" />
+            <element signature="e#568#600#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -581,7 +688,7 @@
         <state relative-caret-position="0">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
           <folding>
-            <element signature="e#568#600#0" expanded="true" />
+            <element signature="e#568#600#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -599,7 +706,7 @@
         <state relative-caret-position="0">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
           <folding>
-            <element signature="e#568#600#0" expanded="true" />
+            <element signature="e#568#600#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -616,7 +723,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#568#600#0" expanded="true" />
+            <element signature="e#568#600#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -633,7 +740,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#568#600#0" expanded="true" />
+            <element signature="e#568#600#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -671,7 +778,7 @@
         <state relative-caret-position="0">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
-            <element signature="e#568#600#0" expanded="true" />
+            <element signature="e#568#600#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -681,24 +788,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#568#600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Appium/allure/rules.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Appium/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#568#600#0" expanded="true" />
+            <element signature="e#568#600#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -715,7 +805,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#568#600#0" expanded="true" />
+            <element signature="e#568#600#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Appium/allure/rules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Appium/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#568#600#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -918,8 +1025,16 @@
         <state relative-caret-position="389">
           <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
-            <element signature="e#568#600#0" expanded="true" />
+            <element signature="e#568#600#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Appium/test/unit/touch_action_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -931,10 +1046,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Appium/test/unit/touch_action_tests.py">
+    <entry file="file://$PROJECT_DIR$/Appium/test/examples/android/ime_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Appium/test/examples/ios/appium_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
