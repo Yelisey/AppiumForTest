@@ -17,8 +17,8 @@ from setuptools import setup
 
 setup(
     name='AppiumAutoTestFramework',
-    version='1.0',
-    description='Python client for Appium',
+    version='0.0.1',
+    description='Autotests on Python with Appium',
     keywords=[
         'appium',
         'appium 1.0',
