@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6e5d5aa-6b02-4ecd-b09f-05c3ca0a6ec2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/appium_tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/chrome_tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/context_switching_tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/desired_capabilities.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/find_by_accessibility_id_tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/find_by_uiautomator_tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/ime_tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/multi_action_tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/network_connection_tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/selendroid_tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/android/touch_action_tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Appium/test/examples/ios/appium_tests.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/android/appium_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/android/chrome_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/android/context_switching_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/android/desired_capabilities.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/android/find_by_accessibility_id_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/android/find_by_uiautomator_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/android/ime_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/android/multi_action_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/android/network_connection_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/android/selendroid_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/android/touch_action_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Appium/test/functional/ios/appium_tests.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AppiumForTest.iws" />
@@ -36,18 +36,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ime_tests.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ime_tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Appium/test/examples/android/ime_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appium_tests.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Appium/test/examples/ios/appium_tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -136,76 +126,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppiumForTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppiumForTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppiumForTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppiumForTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppiumForTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppiumForTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -582,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1467184507545</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add tox.ini file&#10;Configurated tox file">
+      <created>1467184584061</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1467184584061</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1046,7 +973,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Appium/test/examples/android/ime_tests.py">
+    <entry file="file://$PROJECT_DIR$/Appium/test/examples/ios/appium_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1054,7 +981,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Appium/test/examples/ios/appium_tests.py">
+    <entry file="file://$PROJECT_DIR$/Appium/test/examples/android/ime_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
