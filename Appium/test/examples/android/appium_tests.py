@@ -135,7 +135,7 @@ class AppiumTests(unittest.TestCase):
     def test_install_app(self):
         self.skipTest('This causes the server to crash. no idea why')
         self.assertFalse(self.driver.is_app_installed('io.selendroid.testapp'))
-        self.driver.install_app('/Users/isaac/code/python-client/test/apps/selendroid-test-app.apk')
+        self.driver.install_app('/Users/isaac/code/python-client/test/apps_for_example/selendroid-test-app.apk')
         self.assertTrue(self.driver.is_app_installed('io.selendroid.testapp'))
 
     @allure.feature('Feature13')

@@ -25,7 +25,7 @@ def get_desired_capabilities(app):
         'platformName': 'Android',
         'platformVersion': '4.2',
         'deviceName': 'Android Emulator',
-        'app': PATH('../../apps/' + app),
+        'app': PATH('../../apps_for_example/' + app),
         'newCommandTimeout': 240
     }
 
