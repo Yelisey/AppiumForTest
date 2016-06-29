@@ -14,3 +14,7 @@ MANIFEST
 
 build
 dist
+
+/.tox
+/.coverage
+/AppiumAutoTestFramework.egg-info
