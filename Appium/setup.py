@@ -27,6 +27,7 @@ setup(
         'python client',
         'mobile automation'
     ],
+
     packages=[
         'appium',
         'appium.common',
@@ -43,4 +44,5 @@ setup(
         "six>=1.9.0"],
 
     pytest_plugins = ['allure.pytest_plugin']
+
 )
