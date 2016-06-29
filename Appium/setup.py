@@ -1,48 +1,25 @@
 #!/usr/bin/env python
 
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
+import sys
 from distutils.core import setup
 from setuptools import setup
 
-setup(
-    name='AppiumAutoTestFramework',
-    version='0.0.1',
-    description='Autotests on Python with Appium',
-    keywords=[
-        'appium',
-        'appium 1.0',
-        'selenium',
-        'selenium 3',
-        'python client',
-        'mobile automation'
-    ],
 
-    packages=[
-        'appium',
-        'appium.common',
-        'appium.webdriver',
-        'appium.webdriver.common',
-        'allure',
-        #'allure.xmlReport'
-    ],
-    install_requires=[
-        'selenium>=2.47.0',
-        "lxml>=3.2.0",
-        "pytest>=2.7.3,<=2.9.0",
-        "namedlist",
-        "six>=1.9.0"],
+if sys.version_info < (3, 4):
+    install_requires.append("enum34")
 
-    pytest_plugins = ['allure.pytest_plugin']
+def read(fname):
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
+def main():
+    setup(
+        name='AppiumAutoTestFramework',
+        version='0.0.1',
+        description='Autotests on Python with Appium',
+        packages=['appium','allure',],
+        install_requires=['selenium>=2.47.0',"lxml>=3.2.0","pytest>=2.7.3,<=2.9.0","namedlist","six>=1.9.0"],
+        pytest_plugins=['allure.pytest_plugin']
 )
+
+if __name__ == '__main__':
+    main()
